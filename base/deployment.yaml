@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: react-frontend
-          image: 'europe-north1-docker.pkg.dev/duolingo-halleb/react-app-repo/react-app:v1.0.0-dca7ac4'
+          image: 'europe-north1-docker.pkg.dev/duolingo-halleb/react-app-repo/react-app:v1.0.0-3b00b82'
           ports:
             - containerPort: 8080
