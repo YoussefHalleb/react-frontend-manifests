@@ -19,3 +19,8 @@ spec:
           image: 'europe-north1-docker.pkg.dev/duolingo-halleb/react-app-repo/react-app:v1.0.0-f6cbc3d'
           ports:
             - containerPort: 8080
+          resources:
+            requests:
+              cpu: "100m"
+            limits:
+              cpu: "200m"  
